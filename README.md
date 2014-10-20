@@ -1,5 +1,6 @@
-#ninja-xbmc
+#ninja-xbmc-light
 
+Light version of the ninja-xbmc driver. This driver removes the Temperature and webcam. 
 
 ##Ninja Blocks XBMC Driver
 
