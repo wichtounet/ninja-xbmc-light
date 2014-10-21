@@ -1,5 +1,5 @@
 {
-  "name": "ninja-xbmc",
+  "name": "ninja-xbmc-light",
   "version": "0.0.9",
   "description": "NinjaBlocks XBMC driver (Mac, Linux, Windows)",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:elliots/ninja-xbmc.git"
+    "url": "git@github.com:elliots/ninja-xbmc-light.git"
   },
   "keywords": [
     "XBMC",
@@ -20,9 +20,6 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "xbmc": "git://github.com/ninjablocks/node-xbmc.git"
-  },
-  "optionalDependencies": {
-    "mdns":"git://github.com/agnat/node_mdns.git"
   },
   "config":{
     "sockets":[]

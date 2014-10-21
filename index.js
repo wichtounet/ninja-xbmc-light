@@ -117,6 +117,7 @@ driver.prototype.add = function(ip, name, service) {
 };
 
 driver.prototype.scan = function () {
+    return;
   var mdns;
   try {
     mdns = require('mdns');
@@ -357,9 +358,9 @@ function XBMCDevice(host, port, name, app, driver) {
 
   this.devices = {
     hid: new hid(),
-    camera: new camera(),
+    //camera: new camera(),
     displayText: new displayText(),
-    temperature: new temperature()
+    //temperature: new temperature()
   };
 
 }
